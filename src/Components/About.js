@@ -26,7 +26,7 @@ function About() {
                     A strong advocate of lifelong learning and problem-solving, I am eager to leverage my skills to contribute
                     to cutting-edge projects, refine my expertise, and make a meaningful impact in the tech industry.
                 </p>
-                <button className="resume-button" onClick={handleDownload}>View Resume</button>
+                <button className="resume-button" onClick={handleDownload}>View My Resume</button>
             </div>
         </>
     );
