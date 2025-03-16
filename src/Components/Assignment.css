@@ -1,0 +1,22 @@
+.assign{
+    background: linear-gradient(to bottom, #c3b7ee, #f2f0f7);
+    margin-top: 60px;
+    padding: 2rem 5rem 3rem 5rem;
+    font-family: 'Poppins';
+}
+.assign h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #4B0082;
+}
+
+.assign-title{
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color:#4B0082;
+}
+
+.assign-description{
+    margin-bottom: 3rem;
+    color:#201a24
+}
