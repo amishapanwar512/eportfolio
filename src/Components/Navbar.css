@@ -45,3 +45,20 @@
     color: #4a4e4a;
     margin-left: 1.5rem;
 }
+
+@media(max-width: 500px){
+    .pages a{
+        margin-left: 0.5rem;
+        font-size: 1rem;
+    }
+    .pages{
+        display:flex;
+        justify-content: space-around;
+    }
+    .navbar {
+        padding: 1rem 1rem;
+    }
+    .logo a{
+        font-size: 1.2rem;
+    }
+}
