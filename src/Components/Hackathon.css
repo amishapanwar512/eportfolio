@@ -1,0 +1,39 @@
+.hackathon {
+    background: linear-gradient(to right, #c3b7ee, #f2f0f7);
+    padding: 4rem 2rem 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hackathon h1 {
+    color: #4B0082;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hackathon h2 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hackathon p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.hackathon ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.hackathon li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    list-style: none;
+}

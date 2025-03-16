@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.navbar {
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensures full width */
+    height: 60px; /* Set a proper height */
+    background-color: #c7b9fc;
+    padding: 1rem 2rem; /* Adds padding for spacing */
+    display: flex;
+    justify-content: space-between; /* Keeps logo on left, links on right */
+    align-items: center;
+    font-family: Arial, sans-serif;
+    z-index: 1000; /* Ensures navbar stays on top of other content */
+}
+
+.logo {
+    flex: 1; /* Allows the logo to take up space */
+}
+
+.logo a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #411a71;
+}
+
+.pages {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Aligns links to the right */
+}
+
+.pages a {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #4a4e4a;
+    margin-left: 1.5rem;
+}

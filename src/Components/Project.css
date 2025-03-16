@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.projects{
+    background: linear-gradient(to bottom, #c3b7ee, #f2f0f7);
+    padding: 4rem;
+}
+
+#heading{
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+    color:#3a254d;
+    font-family: 'Poppins';
+}
+
+.project-heading{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    color:#3a254d;
+
+}
+
+.project-detail{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color:#3a254d;
+    font-family: 'Poppins';
+}
+
+.project-tech{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color:#3a254d;
+    font-family: 'Poppins';
+}
+
+.project-card{
+
+    margin: 2rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+    background: linear-gradient(to right, #c3b7ee, #f2f0f7);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.githubIcon{
+    color:#3a254d;
+    height: 1.65rem;
+    margin-left: 0.5rem;
+    transition: transform color 0.5s ease-in-out;
+}
+.githubIcon:hover{
+  color: #41314f;
+  transform: scale(1.1);
+}
