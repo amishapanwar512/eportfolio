@@ -30,7 +30,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="second">
+                <div className="second" id="ab">
                     <About/>
                 </div>
                 <div className="third">
